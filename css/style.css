@@ -3,7 +3,262 @@
     padding: 0;
     outline: 0;
 }
+ul li {
+    
+    
+}
 .container{
     width: 1320px;
     margin:0 auto;
 }
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerpart{
+    padding: 39px 0;
+}
+.menu ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 22px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+      font-family: "Rubik", sans-serif;
+}
+.headerbtn{
+    background: #5E3BEE;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    padding: 11px 22px;
+}
+/* banner part start */
+.textpart h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: 500;
+      font-family: "Rubik", sans-serif;
+      color: #5E3BEE;
+      padding: 16px 0;
+
+}
+.textpart h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #333333;
+    width: 450px;
+    padding: 32px 0;
+ 
+}
+.btnleft{
+    background: #5E3BEE;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 11px 22px;
+    border: none;
+    width: 32px 0;
+    
+
+}
+.btnright{
+    border: none;
+    text-decoration: none;
+    align-items: center;
+    padding: 0 22px;
+    background: transparent;
+ 
+}
+/* banner part END */
+/* counter part start */
+.counter{
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    padding: 40px 0;
+}
+.counter p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212B2;
+}
+/* counter part end */
+/* service part start */
+.textpartone{
+    text-align: center;
+}
+.textpartone p{
+    
+    font-size: 16px;
+    color: #5E3BEE;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+
+}
+.textpartone h1{
+    font-size: 44px;
+    font-weight: 600;
+    color: black;
+    padding: 12px;
+}
+.textpartone h4{
+    font-size: 16px;
+    font-weight:400 ;
+    color: #121212B2;
+    padding: 13px;
+
+}
+.designone{
+    text-align: center;
+    background: #F9F9FC;
+    border-radius: 24px;
+    padding: 25px 80px 80px 20px;
+    gap: 40px;
+}
+.designone h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+.designone p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212B2;
+    text-align: center;
+}
+.designtwo{
+      text-align: center;
+    background: #F9F9FC;
+    border-radius: 24px;
+    padding: 25px 80px 80px 20px;
+    gap: 40px;
+}
+.designtwo h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+.designtwo p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212B2;
+    text-align: center;
+}
+.designthree{
+      text-align: center;
+    background: #F9F9FC;
+    border-radius: 24px;
+    padding: 25px 80px 80px 20px;
+    gap: 40px;
+}
+.designthree h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+.designthree p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212B2;
+    text-align: center;
+}
+
+/* service part End */
+/* Graphic Part Start */
+.textpartleft h4{
+    font-size: 16px;
+    font-size: 500;
+    color: #5E3BEE;
+    padding: 50px 0 11px 50px ;
+    font-family: "Rubik", sans-serif;
+
+}
+.textpartleft h1{
+    font-size: 60px;
+    font-size: 700;
+    color:#333333;
+    width: 490px;
+    padding: 0 400px 11px 50px ;
+    font-family: "Rubik", sans-serif;
+
+}
+.textpartleft p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212B2;
+    padding: 15px 0 15px 50px;
+}
+.Graphicbtn{
+      background: #5E3BEE;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 11px 22px;
+    border: none;
+   width: 30px 0 115px 115px;
+    
+}
+.logppartleft{
+    padding: 50px 200px 0 0;
+}
+/* Graphic Part END */
+/* protfolio start */
+.protfolio{
+    align-items: center;
+    justify-content: space-between;
+}
+.protfolio h4{
+     font-size: 16px;
+    font-size: 500;
+    color: #5E3BEE;
+    padding: 50px 0 11px 50px ;
+    font-family: "Rubik", sans-serif;
+
+}
+.protfolio h1{
+      font-size: 44px;
+    font-size: 600;
+    color:#000000;
+    width: 490px;
+    padding: 0 400px 11px 50px ;
+    font-family: "Rubik", sans-serif;
+t-family: "Rubik", sans-serif;
+
+}
+.protfolio p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #121212B2;
+    width: 550px;
+}
+/* protfolio end */
+/* Teatimony Part Start */
+.testimony{
+    align-items: center;
+    justify-content: space-between;
+}
+.testimony h4{
+        font-size: 16px;
+    font-size: 500;
+    color: #5E3BEE;
+    font-family: "Rubik", sans-serif;
+
+    
+}
+/* Teatimony Part END */
+
